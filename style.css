@@ -1,0 +1,66 @@
+.destaque{
+    color: rgb(230, 103, 103);
+}
+.destaque2{
+    color: rgb(0, 255, 255);
+}
+.destaque3{
+    color: rgb(9, 255, 0);
+}
+.link1{
+    color: rgb(255, 255, 255);
+}
+.link1:hover{
+    color:#00aaff
+}
+.link1:visited{
+    color: yellow;
+}
+iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+p{
+    font-size: 17px;
+}
+table{
+    margin: 0 auto;
+}
+td{
+    font-size: 18px;
+}
+body{
+    color: white;
+    padding-left: 30px;
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20231027/pngtree-hexagonal-abstract-background-with-a-black-textured-surface-image_13704307.png);
+}
+
+footer {
+    position: auto;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+
+    padding: 15px;
+
+    border: 1px solid #666;
+    border-radius: 12px;
+
+    background-color: #222;
+    color: white;
+    opacity: 0.85;
+
+    text-align: center;
+}
+footer a {
+    color: rgb(255, 255, 255);
+}
+
+footer a:visited {
+    color: rgb(255, 251, 0);
+}
+
+footer a:hover {
+    color: #00aaff;
+}

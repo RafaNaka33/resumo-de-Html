@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div id="titulo">
+            <h1>Introdução a linguagem HTML - Para Érika P. Goulart</h1>
+            <h2>Escrito com o VSCode e publicado em <a class="link1" href="https://github.com/RafaNaka33" target="_blank">@RafaNaka33</a></h2>
+            <iframe width="500" height="200" src="https://www.youtube.com/embed/K91w-l4buyA" allowfullscreen>
+            </iframe>
+        </div>
+    </header>
+    <main>
+        <div id="subtitulo">
+            <h1>Escrita Front-END</h1>
+        </div>
+        <div id="conteudo">
+            <div class="comeco">
+                <h2>Linguagens de programação Front-END, é a escrita
+                     de código do que aparece na tela do usuário.
+                      Isso inclui textos, imagens, vídeos, etc.
+                </h2>
+                <h1>Estrutura</h1>
+                <h2>Simplificando, a estrutura do código é separada em:
+                    <div class="texto topicos1">
+                        <ul>
+                            <li><spam class="destaque">!DOCTYPE</spam>
+                                <ul>
+                                    <li>usado para indicar que o arquivo criado é em HTML;</li>
+                                </ul>
+                            </li>
+                            <li>Tag's <spam class="destaque">&lt; &gt;</spam> são elementos que definem qual a função
+                            <li><spam class="destaque">&lt;html&gt;</spam> inicio do código html;</li>
+                            <li><spam class="destaque">&lt;/html&gt;</spam> para fechamento do html;</li>
+                            </li>
+                            <li><spam class="destaque">&lt;head&gt;</spam> é a parte onde é definido as configurações da sua página;</li>
+                            <li><spam class="destaque">&lt;body&gt;</spam> literalmente como a tradução, é o corpo da sua página. Dentro dela 
+                                vai:
+                                <ul>
+                                    <li><spam class="destaque2">&lt;header&gt;</spam> cabeçalho da página;</li>
+                                    <li><spam class="destaque2">&lt;main&gt;</spam> conteúdo;</li>
+                                    <li><spam class="destaque2">&lt;footer&gt;</spam> rodapé;</li>
+                                </ul>
+                            </li>
+                            <li><spam class="destaque">&lt;script&gt;</spam>Aqui é associado todo o funcionamento da página do tipo back-END</li>
+                        </ul>
+                    </div>
+                </h2>
+                <h1>Algumas Tag's</h1>
+                <table border="4" class="tabela1 meio">
+                    <tr>
+                        <td> TAG </td>
+                        <td> FUNÇÃO </td>
+                    </tr>
+
+                     <tr>
+                        <td>&lt;&gt;</td>
+                        <td>Abertura de tag</td>
+                    </tr>
+
+                     <tr>
+                        <td>&lt;/&gt;</td>
+                        <td>fechamento de tag</td>
+                    </tr>
+
+                    <tr>
+                        <td>&lt;html&gt;</td>
+                        <td>Começo do código</td>
+                    </tr>
+
+                    <tr>
+                        <td>&lt;head&gt;</td>
+                        <td>configuração do código</td>  
+                    </tr>
+
+                     <td>&lt;link&gt;</td>
+                        <td>Colocar links de fonte de emotes, bibliotecas para CSS etc</td>  
+
+                     <tr>
+                        <td>&lt;meta&gt;</td>
+                        <td>regras que definem como o conteúdo será lido pelo navegador</td>
+                    </tr>
+
+                    <tr>
+                        <td>&lt;body&gt;</td>
+                        <td>Corpo da página</td>
+                    </tr>
+
+                    <tr>
+                        <td>&lt;header&gt;</td>
+                        <td>Cabeçalho da página</td>
+                    </tr>
+
+                    <tr>
+                        <td>&lt;main&gt;</td>
+                        <td>Parte do "meio" da página</td>
+                    </tr>
+
+                    <tr>
+                        <td>&lt;footer&gt;</td>
+                        <td>rodapé</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>&lt;img&gt;</td>
+                        <td>tag para inserir imagens</td>
+                    </tr>
+
+                    <tr>
+                        <td>&lt;video&gt;</td>
+                        <td>usado para inserir arquivos de vídeo</td>
+                    </tr>
+
+                     <tr>
+                        <td>&lt;a&gt;</td>
+                        <td>âncora. Usado pra criar textos clickáveis com links</td>
+                    </tr>
+
+                     <tr>
+                        <td>&lt;script&gt;</td>
+                        <td>configuração back-end da página</td>
+                    </tr>
+
+                    <tr>
+                        <td>&lt;h1&gt;...&lt;hN&gt;</td>
+                        <td>hierarquia, importância de texto</td>
+                    </tr>
+
+                    <tr>
+                        <td>&lt;p&gt;</td>
+                        <td>abre um novo parágrafo</td>
+                    </tr>
+
+                    <tr>
+                        <td>&lt;div&gt;</td>
+                        <td>abre uma divisória no código</td>
+                    </tr>
+
+                     <tr>
+                        <td>&lt;ul&gt;</td>
+                        <td>abre uma lista com tópicos. "Unordered List"</td>
+                    </tr>
+
+                     <tr>
+                        <td>&lt;li&gt;</td>
+                        <td>item da lista "List Item"</td>
+                    </tr>
+                </table>
+                <div id="final">
+                    <h1>"Sub-tag"</h1>
+                    <h2 class="destaque2">class</h2>
+                    <p>A palavra "class" vai dentro de uma tag para identifica-la. Essa ferramenta pode ser usada em comando de CSS para estilização.</p>
+                    <h3>Exemplo:</h3>
+                    <p>&lt;div class="texto1"&gt;</p>
+                    <h3>No código CSS:</h3>
+                    <p> .class="texto1"{
+                        <p>color: red;</p>}
+                    </p>
+                    <h3>isso quer dizer que a classe da div vai ser inteira modificada com a cor do texto de vermelho</h3>
+                    <h2 class="destaque2">id</h2>
+                    <p>O "id" é a sub-tag de identidade, com quase a mesma função de "class". A diferença é que a classe pode ser aplicada a mais de uma tag,</p>
+                    <p>Já a identidade é única de uma tag</p>
+                    <h2 class="destaque2">src</h2>
+                    <p>SRC significa "Source", no caso do código pode ser interpretado como "fonte" ou "origem"</p>
+                    <p>Ela também vai dentro da tag de abertura e é usada para buscar um item como arquivos de mídia</p>
+                    <h3>Exemplo:</h3>
+                    <p><spam class="destaque">Dentro de uma pasta</spam></p>
+                    <p>&lt;img src="imagem1.jpg"&gt;</p>
+                    <p><spam class="destaque">Direto da internet</spam></p>
+                    <p>&lt;img src="https://i.pinimg.com/originals/2a/2f/a0/2a2fa0db3179d4b4ec39d1a8a1eeda7d.jpg?nii=t"&gt;</p>
+                    <p><spam class="destaque">Dentro de várias pastas</spam></p>
+                    <p>src="imagem/imagensExemplo/foto1234.jpg"</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Aqui é o rodapé da página! Para ver o código dessa página acesse o perfil do github <a href="https://github.com/RafaNaka33" target="_blank">@RafaNaka33</a></p>
+        <p>pode ser alterado como "fixed" ou "auto" no css para manter o rodapé apenas no final da página ou junto com a tela</p>
+        <p>se o link for abrir em outra aba coloque dentro de &lt;a&gt; o comando "target=_blank</p>
+        <h1 class="destaque">O CHAT GPT PODE SER RUIM EM ALGUMAS COISAS MAS PARA ESCREVER CÓDIGOS ELE É UMA BOA BASE E CORRETOR!</h1>
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>
